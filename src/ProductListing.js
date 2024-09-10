@@ -20,7 +20,7 @@ const ProductListing = () => {
         const uniqueCategories = Array.from(
           new Set(data.products.map((product) => product.category))
         );
-        setCategories(["all", ...uniqueCategories]);
+        setCategories(["All", ...uniqueCategories]);
       });
   }, []);
 
